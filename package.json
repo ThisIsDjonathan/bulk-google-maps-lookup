@@ -1,0 +1,50 @@
+{
+  "name": "bulk-google-maps-lookup",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Djonathan Krause",
+    "email": "email@djonathan.com",
+    "url": "https://djonathan.com"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:prettier:check": "prettier --check .",
+    "lint:prettier:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "latest",
+    "@radix-ui/react-label": "latest",
+    "@radix-ui/react-progress": "latest",
+    "@radix-ui/react-select": "latest",
+    "@radix-ui/react-slider": "latest",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-tabs": "latest",
+    "@radix-ui/react-toast": "latest",
+    "@radix-ui/react-tooltip": "latest",
+    "@upstash/redis": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.454.0",
+    "next": "15.2.4",
+    "papaparse": "latest",
+    "prettier": "^3.5.3",
+    "react": "^19",
+    "react-dom": "^19",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "9.24.0",
+    "eslint-config-next": "15.3.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}
