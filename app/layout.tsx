@@ -13,6 +13,18 @@ export const metadata: Metadata = {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
   },
+  openGraph: {
+    title: "Google Maps Bulk Lookup Tool",
+    description: "Search multiple Google Maps place ids at once",
+    images: [
+      {
+        url: "/preview-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Google Maps Bulk Lookup Tool Preview",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -30,5 +42,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-import "./globals.css";
