@@ -2,7 +2,7 @@
 <p align="center">Search multiple Google <code>place_id</code> and <code>Google Maps URL</code> at once!</p>
 
 <p align="center">
-  <a href="https://bulk-google-maps-lookup.vercel.app" target="_blank">🧪 Try it live on Vercel</a>
+  <a href="https://bulk-google-maps-lookup.djonathan.com" target="_blank">🧪 Try it live here</a>
 </p>
 
 ---
